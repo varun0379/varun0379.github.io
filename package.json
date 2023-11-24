@@ -2,8 +2,13 @@
   "name": "varun0379.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://varun0379.github.io/varun0379.github.io",
+  "homepage": "http://varun0379.github.io/",
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -19,8 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.0",
+    "tailwindcss": "^3.3.5"
   }
 }
